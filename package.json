@@ -4,10 +4,7 @@
   "description": "conduit on node",
   "main": "app.js",
   "scripts": {
-    "start:mongo": "docker stop mongo-example ; docker rm mongo-example ; docker run -dp 27017:27017 --name mongo-example mongo",
-    "start:server": "node ./app.js",
-    "start": "npm run start:mongo && npm run start:server",
-    "postinstall": "npm link @sprkl/gitelemetry",
+    "start": "node ./app.js",
     "prestart": "gitelemetry apply -a 1000",
     "dev": "nodemon ./app.js",
     "test": "newman run ./tests/api-tests.postman.json -e ./tests/env-api-tests.postman.json",
