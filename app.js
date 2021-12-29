@@ -1,4 +1,4 @@
-require('@sprkl/gitelemetry').init('node-express-realworld-example-app')
+require('@sprkl/sprkl').init('node-express-realworld-example-app')
 var http = require('http'),
     path = require('path'),
     methods = require('methods'),

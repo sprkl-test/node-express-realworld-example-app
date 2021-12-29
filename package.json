@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./app.js",
-    "prestart": "gitelemetry apply -a 1000",
+    "prestart": "sprkl apply -a 1000",
     "dev": "nodemon ./app.js",
     "test": "newman run ./tests/api-tests.postman.json -e ./tests/env-api-tests.postman.json",
     "stop": "lsof -ti :3000 | xargs kill"

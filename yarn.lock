@@ -2,8 +2,8 @@
 # yarn lockfile v1
 
 
-"@sprkl/gitelemetry@file:../../sprkl-dev/gitelemetry/npm/@sprkl/gitelemetry":
-  "resolved" "file:../../sprkl-dev/gitelemetry/npm/@sprkl/gitelemetry"
+"@sprkl/sprkl@file:../../sprkl-dev/sprkl/npm/@sprkl/sprkl":
+  "resolved" "file:../../sprkl-dev/sprkl/npm/@sprkl/sprkl"
   "version" "1.0.0"
   dependencies:
     "@grpc/grpc-js" "^1.4.4"
