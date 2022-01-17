@@ -1,4 +1,4 @@
-require('sprkl')({serviceName:'node-express-realworld-example-app', agent: {host: process.env.OTEL_COLLECTOR}})
+require('sprkl').init({serviceName:'node-express-realworld-example-app', agent: {host: process.env.OTEL_COLLECTOR}})
 var http = require('http'),
     path = require('path'),
     methods = require('methods'),
