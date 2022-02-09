@@ -4,7 +4,7 @@
   "description": "conduit on node",
   "main": "app.js",
   "scripts": {
-    "start": "node ./app.js",
+    "start": "sprkl --no-apply --name=node-express-realworld-example-app -- node ./app.js",
     "dev": "nodemon ./app.js",
     "test": "newman run ./tests/api-tests.postman.json -e ./tests/env-api-tests.postman.json",
     "stop": "lsof -ti :3000 | xargs kill"
